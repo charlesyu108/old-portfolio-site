@@ -20,10 +20,12 @@ a:hover {
     text-decoration: underline;
 }
 h1 {
-    font-size: 3em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    text-align: center;
+    font-size: 2.5em;
+    font-family:'Avenir','Helvetica', 'Arial', 'Sans-Serif';
 }
 p {
+    text-align: center;
     font-size: 1.5em;
     line-height: 1.4em;
     color: #333;
@@ -40,4 +42,23 @@ ul.posts {
 
 ul.posts li {
     list-style: none;
+}
+
+span#coder {
+    font-family: 'Courier', sans-serif;
+    color: #75DBCD;
+}
+span#writer {
+    font-family: 'American Typewriter', 'Times New Roman', serif;
+}
+    
+span#thinker {
+    font-family: 'HanziPen SC', 'Herculanum', cursive;
+    color: #F56960;
+}
+ 
+img#charlesPic{
+    width: 40%;
+    display: block;
+    margin: auto;
 }
