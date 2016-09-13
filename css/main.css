@@ -58,8 +58,7 @@ span#thinker {
 }
  
 img#charlesPic{
-    max-width: 60%;
-    min-width: 40%;
+    width: 40%
     display: block;
     margin: auto;
 }
