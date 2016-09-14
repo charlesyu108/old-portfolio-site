@@ -747,7 +747,8 @@
 /* Basic */
 
 	body {
-		background-image: url("images/overlay.png"), url("images/bg.jpg");
+		background-image: url(https://api.mapbox.com/styles/v1/charlesyu108/cit2crl4f001v2wqrp65yjnbj/static/-122.087543,37.772098,8.45,0.00,0.00/1280x800?access_token=pk.eyJ1IjoiY2hhcmxlc3l1MTA4IiwiYSI6ImNpdDI3cjdodDBzaW4yenFwcjdieGk1cTkifQ.KlC5VPugi7njGC0QAPf3BA),
+		url("images/overlay.png"), url("images/bg.jpg");
 		background-repeat: repeat, no-repeat;
 		background-size: auto, 100% 100%;
 		font-family: 'Source Sans Pro', sans-serif;
