@@ -25,7 +25,7 @@
 						<a href="#about" class="icon fa-user"><span>About Me</span></a>
 						<a href="#projects" class="icon fa-laptop"><span>Projects</span></a>
 						<a href="#writing" class="icon fa-folder"><span>Writing</span></a>
-						<a href="assets/resume.pdf" class="icon fa-paper-plane-o"><span>Resume</span></a>
+						<a href="#resume" class="icon fa-paper-plane-o"><span>Resume</span></a>
 					</nav>
 
 				<!-- Main -->
@@ -130,15 +130,24 @@
 									Yet Not Alone — Sept. 22, 2015</span> </a></li>
 								</ul>
 									
-								
 							</article>
+							
+							<!--Resume-->
+							<article id="resume" class="panel">
+								<header>
+									<h2>Resume</h2>
+								</header>
+								<div id="resumeviewer"></div>							
+							</article>
+							
 					</div>
 
 				<!-- Footer -->
 					<div id="footer">
 						<ul class="copyright">
-							<li>&copy; Charles.</li><li>Design: HTML5 UP</li>
+							<li>&copy; Charles Yu.</li><li>Design: HTML5 UP</li>
 						</ul>
+						
 					</div>
 
 			</div>
@@ -150,6 +159,16 @@
 			<script src="assets/js/util.js"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
+			<script src='assets/js/pdfobject.js'></script>
+			<script>
+			//Be sure your document contains an element with the CSS selector "resumeviewer"
+			var options = {
+			   pdfOpenParams: { view: 'FitV' },
+			   fallbackLink: '<p>This browser does not support inline PDFs. Please download the PDF to view it: <a href="assets/resume.pdf">Download PDF</a></p>'
+			};
+			
+			PDFObject.embed("assets/resume.pdf", "#resumeviewer", options);
+			</script>
 
 	</body>
 </html>

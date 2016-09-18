@@ -747,7 +747,7 @@
 /* Basic */
 
 	body {
-		background-image: url(https://api.mapbox.com/styles/v1/charlesyu108/cit2crl4f001v2wqrp65yjnbj/static/-122.087543,37.772098,8.45,0.00,0.00/1280x800?access_token=pk.eyJ1IjoiY2hhcmxlc3l1MTA4IiwiYSI6ImNpdDI3cjdodDBzaW4yenFwcjdieGk1cTkifQ.KlC5VPugi7njGC0QAPf3BA),
+		background-image: url(https://api.mapbox.com/styles/v1/charlesyu108/cit27t6l5001c2ymquu278z2f/static/-122.326881,37.792196,8.89,0.00,0.00/1280x800?access_token=pk.eyJ1IjoiY2hhcmxlc3l1MTA4IiwiYSI6ImNpdDI3cjdodDBzaW4yenFwcjdieGk1cTkifQ.KlC5VPugi7njGC0QAPf3BA),
 		url("images/overlay.png"), url("images/bg.jpg");
 		background-repeat: repeat, no-repeat;
 		background-size: auto, 100% 100%;
@@ -838,62 +838,6 @@
 		table.default thead {
 			border-bottom: solid 2px #f4f4f4;
 		}
-
-/* Form */
-
-	form label {
-		display: block;
-		font-weight: 400;
-		color: #363636;
-		margin: 0 0 1em 0;
-	}
-
-	form input[type="text"],
-	form input[type="email"],
-	form input[type="password"],
-	form select,
-	form textarea {
-		-webkit-appearance: none;
-		border: 0;
-		background: #f4f4f4;
-		padding: 0.75em;
-		width: 100%;
-		-moz-transition: background-color .25s ease-in-out;
-		-webkit-transition: background-color .25s ease-in-out;
-		-ms-transition: background-color .25s ease-in-out;
-		transition: background-color .25s ease-in-out;
-	}
-
-		form input[type="text"]:focus,
-		form input[type="email"]:focus,
-		form input[type="password"]:focus,
-		form select:focus,
-		form textarea:focus {
-			background: #f8f8f8;
-		}
-
-	form input[type="text"],
-	form input[type="email"],
-	form input[type="password"],
-	form select {
-		line-height: 1.35em;
-	}
-
-	form ::-webkit-input-placeholder {
-		color: #999;
-	}
-
-	form :-moz-placeholder {
-		color: #999;
-	}
-
-	form ::-moz-placeholder {
-		color: #999;
-	}
-
-	form :-ms-input-placeholder {
-		color: #999;
-	}
 
 /* Section/Article */
 
@@ -1060,7 +1004,7 @@
 	#nav a {
 		position: relative;
 		display: inline-block;
-		color: #ffffff;
+		color: #48ACF0;
 		width: 0.8em;
 		height: 0.8em;
 		line-height: 0.9em;
@@ -1102,8 +1046,7 @@
 /* Footer */
 
 	#footer {
-		color: #ccc;
-		color: rgba(255, 255, 255, 0.45);
+		color: #48ACF0;
 	}
 
 		#footer a {
@@ -1244,7 +1187,7 @@
 				#nav a {
 					font-size: 2.5em;
 					margin: 0 0.25em 0 0.25em;
-					opacity: 0.35;
+					opacity: 0.75;
 					outline: 0;
 					-moz-transition: opacity .25s ease-in-out;
 					-webkit-transition: opacity .25s ease-in-out;
@@ -1418,11 +1361,11 @@
 						letter-spacing: -0.015em;
 						margin-top: 0;
 					}
+					
 
 		/* Footer */
 
 			#footer {
-				text-align: center;
 				padding: 2em 0 0 0;
 				font-size: 0.75em;
 			}
